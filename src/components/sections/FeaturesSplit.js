@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'Find out how seamless the process can be'
   };
 
   return (
@@ -67,13 +67,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Lightning fast data collection
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Mobile Data Entry
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Anyone in your organization will be able to record data at lightning speeds in real time using just a mobile phone or a tablet.
+                  You can rest assured that your team's most important data can be recorded at all times with our simple interface.
                   </p>
               </div>
               <div className={
@@ -83,23 +84,24 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/mockup.png')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={1096} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Cognitive Data Analysis
                   </div>
                 <h3 className="mt-0 mb-12">
                   Data-driven insights
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  We run statistical analysis on all your practice data to uncover trends and insights that will motivate your team and help you practice better.<br></br>
+                  Want to analyze the data yourself? We also offer ways for you to download the data to an excel spreadsheet. It's the best of both worlds!
                   </p>
               </div>
               <div className={
@@ -109,23 +111,24 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/graphs.png')}
                   alt="Features split 02"
                   width={528}
-                  height={396} />
+                  height={1096} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Beautifully displayed
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Dashboards, Understood
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  We have worked with top baseball coaches to develop dashboards that display their practice data in the most helpful and easy to understand way possible.
+                  Players love the built-in competition aspects and coaches love the holistic team analysis.  We'll think you'll love it too.
                   </p>
               </div>
               <div className={
@@ -135,7 +138,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/visualizationPic.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
