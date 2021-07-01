@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
+import PilotPDF from "./../../assets/images/pilot_program.pdf";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -115,8 +116,20 @@ const Header = ({
                     <ul className="list-reset header-nav-right">
                       <li>
                         <a
-                          className="button button-wide-mobile button-sm"
+                          className="button-wide-mobile"
+                          href={PilotPDF}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Fall 2021 Pilot Program
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="button-wide-mobile"
                           href="https://vimeo.com/564768855"
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           Instructional Videos
                         </a>
@@ -125,8 +138,20 @@ const Header = ({
                         <a
                           className="button button-primary button-wide-mobile button-sm"
                           href="https://vizn-stats.web.app/create"
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           Sign Up
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="button button-wide-mobile button-sm"
+                          href="https://vizn-stats.web.app"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Login
                         </a>
                       </li>
                     </ul>
