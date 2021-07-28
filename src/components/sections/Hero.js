@@ -88,14 +88,14 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <iframe
+            {/* <iframe
               src="https://player.vimeo.com/video/564760305?autoplay=1&loop=1"
               width="320"
               height="434"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-            ></iframe>
+            ></iframe> */}
             {/* <a
               data-video="https://player.vimeo.com/video/564760305"
               href="#0"
