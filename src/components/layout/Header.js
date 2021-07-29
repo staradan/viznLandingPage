@@ -126,16 +126,6 @@ const Header = ({
                       </li>
                       <li>
                         <a
-                          className="button-wide-mobile"
-                          href="https://vimeo.com/564768855"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Instructional Videos
-                        </a>
-                      </li>
-                      <li>
-                        <a
                           className="button button-primary button-wide-mobile button-sm"
                           href="https://vizn-stats.web.app/create"
                           target="_blank"
